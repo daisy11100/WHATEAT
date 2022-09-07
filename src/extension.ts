@@ -21,7 +21,7 @@ export function activate(context:  vscode.ExtensionContext) {
 	scheduler=createScheduler(context);
 	scheduler.start();
 
-	let disposable = vscode.commands.registerCommand('whateat.helloWorld', () => {
+	let disposable = vscode.commands.registerCommand('whateat.todayeat', () => {
 		const notice=createNotice();
 		notice.render();
 	});

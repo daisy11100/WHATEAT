@@ -10,15 +10,15 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:whateat.helloWorld",
+    "onCommand:whateat.todayeat",
     "*"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "whateat.helloWorld",
-        "title": "Hello World"
+        "command": "whateat.todayeat",
+        "title": "今天吃点啥"
       }
     ],
     "configuration": {
