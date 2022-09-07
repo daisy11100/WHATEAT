@@ -10,7 +10,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:whateat.helloWorld"
+    "onCommand:whateat.helloWorld",
+    "*"
   ],
   "main": "./dist/extension.js",
   "contributes": {
@@ -64,6 +65,7 @@
   },
   "dependencies": {
     "cron": "^2.1.0",
+    "dayjs": "^1.11.5",
     "node-cron": "^3.0.2",
     "random": "^3.0.6"
   }
