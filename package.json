@@ -1,8 +1,10 @@
 {
   "name": "whateat",
   "displayName": "WHATEAT",
-  "description": "明天吃点啥",
+  "description": "今天吃点啥",
   "version": "0.0.1",
+  "icon": "assets/logo.png",
+  "publisher": "MurphyDuan",
   "engines": {
     "vscode": "^1.71.0"
   },
